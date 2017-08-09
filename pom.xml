@@ -4,8 +4,8 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.binarywang</groupId>
-    <artifactId>weixin-java-mp-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>weixin-java-mp</artifactId>
+    <version>0.0.1</version>
     <packaging>war</packaging>
     <name>Weixin MP Demo</name>
     <description>weixin mp demo with spring MVC</description>
@@ -87,6 +87,7 @@
     </dependencies>
 
     <build>
+        <finalName>wechat</finalName>
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
